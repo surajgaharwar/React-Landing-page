@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <p>© 2024 My Landing Page. All rights reserved.</p>
+      <p>"Designed for Excellence • Built for You • © 2024 All Rights Reserved.".</p>
     </footer>
   );
 };
