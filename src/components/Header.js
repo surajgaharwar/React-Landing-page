@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header>
       <nav className="navbar">
-        <h1>My Landing Page</h1>
+        <h1>Landing Page</h1>
         <ul>
           <li><a href="#hero" onClick={(e) => smoothScroll(e, "hero")}>Home</a></li>
           <li><a href="#features" onClick={(e) => smoothScroll(e, "features")}>Features</a></li>
