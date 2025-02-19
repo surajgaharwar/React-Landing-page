@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #1a1a2e, #16213e); /* Modern gradient */
+    color: white;
+    padding: 15px 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .navbar h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #f0a500; /* Stylish accent color */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adds space between links */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    position: relative;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar a:hover {
+    color: #f0a500; /* Matches accent color */
+  }
+  
+  .navbar a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: #f0a500;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+  }
+  
+  .navbar a:hover::after {
+    width: 100%;
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 10px;
+    }
+  }
+  

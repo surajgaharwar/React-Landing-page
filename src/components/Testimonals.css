@@ -1,0 +1,13 @@
+#testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+  }
+  
+  .testimonial {
+    margin: 20px auto;
+    width: 50%;
+    padding: 15px;
+    border-left: 4px solid #00f2fe;
+  }
+  

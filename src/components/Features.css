@@ -1,0 +1,28 @@
+#features {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature {
+    width: 30%;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .features-container {
+      flex-direction: column;
+    }
+    .feature {
+      width: 90%;
+    }
+  }
+  
