@@ -6,10 +6,10 @@ const Testimonals = () => {
     <section id="testimonials">
       <h2>What Our Customers Say</h2>
       <div className="testimonial">
-        <p>"Best service ever!" - John Doe</p>
+        <p>🌟 "Absolutely amazing! Exceeded my expectations." – Rahul Sharma</p>
       </div>
       <div className="testimonial">
-        <p>"Highly recommend it." - Jane Smith</p>
+        <p>🌟 "A game-changer! Super easy to use and efficient." – Priya Patel</p>
       </div>
     </section>
   );
