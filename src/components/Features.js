@@ -7,16 +7,16 @@ const Features = () => {
       <h2>Our Features</h2>
       <div className="features-container">
         <div className="feature">
-          <h3>Fast Performance</h3>
-          <p>Lightning-fast loading speed.</p>
+          <h3>Secure & Reliable</h3>
+          <p>Your data is safe with top-notch security measures.</p>
         </div>
         <div className="feature">
-          <h3>Responsive Design</h3>
-          <p>Looks great on all devices.</p>
+          <h3>User-Friendly Interface</h3>
+          <p>Intuitive design for a seamless experience.</p>
         </div>
         <div className="feature">
-          <h3>SEO Optimized</h3>
-          <p>Get more visibility online.</p>
+          <h3>24/7 Support</h3>
+          <p>Get assistance anytime you need it.</p>
         </div>
       </div>
     </section>
